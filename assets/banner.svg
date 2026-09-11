@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="0.5" stop-color="#141b2e"/>
+      <stop offset="1" stop-color="#1b1030"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <circle cx="180" cy="90" r="220" fill="url(#glow1)"/>
+  <circle cx="1040" cy="300" r="260" fill="url(#glow2)"/>
+
+  <circle cx="120" cy="300" r="70" fill="none" stroke="#7c5cff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <circle cx="1085" cy="70" r="90" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-width="1.5"/>
+  <circle cx="1000" cy="320" r="40" fill="none" stroke="#a78bfa" stroke-opacity="0.14" stroke-width="1.5"/>
+
+  <line x1="80" y1="76" x2="1120" y2="76" stroke="url(#accentLine)" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="80" y1="312" x2="1120" y2="312" stroke="url(#accentLine)" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <polyline points="150,250 210,200 270,235 330,180" fill="none" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="2"/>
+  <polyline points="880,150 940,110 1000,160 1060,120" fill="none" stroke="#a78bfa" stroke-opacity="0.22" stroke-width="2"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" font-weight="700" fill="#ffffff">
+    Fortnite Skin Changer
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Config editor for Fortnite players who want to preview and organize</tspan>
+    <tspan x="600" dy="28">skin changer setups locally — tweak loadouts, save presets, stay organized.</tspan>
+  </text>
+
+  <circle cx="600" cy="272" r="4" fill="#a78bfa" fill-opacity="0.8"/>
+  <circle cx="580" cy="272" r="3" fill="#7c5cff" fill-opacity="0.5"/>
+  <circle cx="620" cy="272" r="3" fill="#22d3ee" fill-opacity="0.5"/>
+</svg>
